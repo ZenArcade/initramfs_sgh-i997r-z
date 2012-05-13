@@ -26,7 +26,7 @@
 STL=`ls -d /sys/block/stl*`
 BML=`ls -d /sys/block/bml*`
 MMC=`ls -d /sys/block/mmc*`
-SCHEDULER=bfq
+SCHEDULER=cfq
 
 # Optimize non-rotating storage; 
 log "INIT.scheduler BEGIN:setting scheduler parameters for $SCHEDULER"
